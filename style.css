@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px dashed red;
+}
+
+:root {
+  --color-body-background: white;
+  --color-default-font: darkslategrey;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background-color: var(--color-body-background);
+  color: var(--color-default-font);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-squares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.practice-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Color suggestions from Color Hunt [https://colorhunt.co] */
+
+#square-1 {
+  background-color: #d8efd3;
+  color: #55ad9b;
+}
+
+#square-2 {
+  background-color: #fdffe2;
+  color: #5a72a0;
+}
+
+#square-3 {
+  background-color: #fff5e1;
+  color: #c80036;
+}
+
+#square-4 {
+  background-color: #fcdc94;
+  color: #78aba8;
+}
+
+#square-5 {
+  background-color: #e2bbe9;
+  color: #5a639c;
+}
+
+#square-6 {
+  background-color: #f6e6cb;
+  color: #a0937d;
+}
+
+#square-7 {
+  background-color: #ffcbcb;
+  color: #102c57;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
