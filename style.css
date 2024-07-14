@@ -95,6 +95,11 @@ h3 {
   color: #102c57;
 }
 
+#square-8 {
+  background-color: #ebbbbb;
+  color: #253957;
+}
+
 footer {
   margin-top: 2rem;
   text-align: center;
